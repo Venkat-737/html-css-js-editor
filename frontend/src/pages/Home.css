@@ -1,0 +1,69 @@
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 88vh;
+  width: 100%;
+  align-items: center;
+}
+
+.code-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95%;
+  
+  /* width:50%; */
+}
+
+.editor {
+  resize: none;
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  width: 90%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.run-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+#run-btn {
+  background-color: #4caf50;
+  color: white;
+  width: 80px;
+  height: 35px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#run-btn:hover {
+  background-color: #45a049;
+}
+
+.output-container {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 90%; 
+  overflow-y: auto;
+}
+#outputDiv{
+
+  height:97%;
+  width:97%;
+}

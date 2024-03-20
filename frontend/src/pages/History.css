@@ -1,0 +1,8 @@
+.all{
+    /* height:calc(100vh-10%); */
+    overflow-y: auto;
+}
+.heading{
+    text-align: center;
+    margin: 2px;
+}
