@@ -19,6 +19,9 @@ const History = () => {
             <div>
               <strong>CSS:</strong> <pre>{item.css}</pre>
             </div>
+            <div>
+              <strong>JavaScript:</strong> <pre>{item.js}</pre>
+            </div>
           </li>
         ))}
       </ul>
